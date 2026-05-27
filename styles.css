@@ -113,16 +113,16 @@ strong {
 }
 
 
-ul {
+ul.recipe__preptime__list, ul.recipe__ingredients__list {
   padding-left: 1.5em;
 }
 
-li {
+li.recipe__preptime__item, li.recipe__ingredients__item, li.recipe__instructions__item {
     margin-bottom: 1rem;
     padding-left: 1rem;
 }
 
-ol {
+ol.recipe__instructions__list {
   padding-left: 1.5em;
 }
 
