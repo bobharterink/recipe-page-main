@@ -159,9 +159,18 @@ table tr:last-child td {
     border-bottom: none;
 }
 
-table tr td:nth-child(2) {
+table th {
+    font-weight: 400;
+}
+
+table td {
     font-weight: 700;
     color: var(--color-brown-800);
+}
+
+.recipe__nutrition__table caption {
+  text-align: left;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 600px) {
